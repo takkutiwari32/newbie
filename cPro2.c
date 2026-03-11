@@ -654,46 +654,46 @@ int main(){
          printf("NOT PALINDROME!!");       
 }
 */
-#include<stdio.h>
-#include<string.h>
-int main(){
-   int k=0,i,j,h; 
-   int str1[50],str2[50];
-   printf("enter two strings to check for palindrome\t");
-   scanf("%s%s",&str1,&str2);
-   i=0;
-   j=0;
-   int isPalindrome;
-   while(str1[i]!=0){
-      i++;
-   }
-   while(str2[j]!=0){
-      j++;
-   }
-   if(i!=j)
-     printf("\nNOT PALINDROME!!!\n");
-   else{
-      for(h=0;h<j;h++){
+// #include<stdio.h>
+// #include<string.h>
+// int main(){
+//    int k=0,i,j,h; 
+//    int str1[50],str2[50];
+//    printf("enter two strings to check for palindrome\t");
+//    scanf("%s%s",&str1,&str2);
+//    i=0;
+//    j=0;
+//    int isPalindrome;
+//    while(str1[i]!=0){
+//       i++;
+//    }
+//    while(str2[j]!=0){
+//       j++;
+//    }
+//    if(i!=j)
+//      printf("\nNOT PALINDROME!!!\n");
+//    else{
+//       for(h=0;h<j;h++){
 
-          if(str1[h]==str2[j-h-1]){
-            isPalindrome=1;
+//           if(str1[h]==str2[j-h-1]){
+//             isPalindrome=1;
 
-          }
-         else{
-            isPalindrome=0;
-            break;
-         }
-
-
-      }
-   }
-   if(isPalindrome==1)
-       printf("\nPALINDROMDE!!!\n");
-   else
-       printf("\nNOT PALINDROME\n");    
+//           }
+//          else{
+//             isPalindrome=0;
+//             break;
+//          }
 
 
-}
+//       }
+//    }
+//    if(isPalindrome==1)
+//        printf("\nPALINDROMDE!!!\n");
+//    else
+//        printf("\nNOT PALINDROME\n");    
+
+
+// }
 
    
  
